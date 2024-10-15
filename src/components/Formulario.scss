@@ -1,0 +1,32 @@
+.form-content {
+  background-color: #793163;
+  color: white;
+  width: 40%;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+
+  &_input {
+    width: 100%;
+  }
+
+  label {
+    display: flex;
+    flex-direction: column;
+  }
+
+  input {
+    width: 100%;
+  }
+
+  &_button {
+    all: unset;
+    border: 1px solid #793163;
+    border-radius: 15px;
+    background-color: white;
+    color: #793163;
+    padding: 0.5rem;
+  }
+}

@@ -1,0 +1,36 @@
+.carrito-content {
+  padding: 1rem;
+}
+
+table.tabla-carrito {
+  border-collapse: collapse;
+  width: 95%;
+  margin: 1rem auto;
+
+  th,
+  td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+
+  th {
+    background-color: #f2f2f2;
+  }
+}
+
+.buttons-carrito {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.carrito-button {
+  all: unset;
+  border: 1px solid #793163;
+  border-radius: 15px;
+  background-color: white;
+  color: #793163;
+  padding: 0.5rem;
+}
